@@ -1,0 +1,51 @@
+/*Nav bar styling*/
+#navBar{
+    background-color: #36454f;
+    border-radius: 5px;
+    margin-bottom: 3em;
+}
+#navBarText{
+    color: white;
+}
+
+/*Footer styling*/
+#footer{
+    background-color: #36454f;
+    border-radius: 5px;
+    margin-top: 3em;
+    color: white;
+    padding: 1em;
+}
+
+/*Calculator styling*/
+#calculator{
+    background-color: #eeeeee;
+    border-radius: 5px;
+    padding: 1rem;
+
+}
+
+#operators{
+    margin: 1rem;
+
+}
+
+#numberRow {
+    margin: 0.5rem;
+}
+
+#numbers{
+    margin: 1rem;
+    padding: 1em;
+}
+
+
+/*HTML restyling*/
+
+/*<a> tag*/
+
+a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+

@@ -1,0 +1,53 @@
+<?php require("template/header.phtml"); ?>
+
+
+    <div class="header">
+        <div class="jumbotron">
+
+            <h1>Calculator</h1>
+            <p>For your number crunching needs </p>
+
+            <h2>See some of my more advanced web skills on github, here: </h2>
+
+            <p> <a href="https://github.com/AnthonyHaslett/CliServers">GitHub link</a> </p>
+
+        </div>
+    </div>
+
+
+    <div id="calculator">
+
+        <div>
+            <h1>Calculate</h1>
+
+            <h2 id="results">Results</h2>
+
+            <script src="../js/logic.js"></script>
+
+            <form method="post" action="../Controller/processing.php">
+            <div>
+<!--                Numbers-->
+
+                <label>Number 1</label><input type="number" name="num1">
+                <label>Number 2</label><input type="number" name="num2">
+
+<!--                Operators-->
+
+                <p>Select a operator to submit your calculation</p>
+
+<!--                On click is used to demo Javascript skills-->
+                <input type="submit" name="+" value="+" onclick="results('/')">
+                <input type="submit" name="-" value="-">
+                <input type="submit" name="*" value="*">
+                <input type="submit" name="/" value="/">
+
+            </div>
+                <h2 id="results">Results</h2>
+
+            </form>
+        </div>
+
+
+
+
+<?php //require("template/footer.phtml"); ?>
